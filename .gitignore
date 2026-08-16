@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local env
+.venv/
+venv/
+.env
+.env.*
+
+# Local logs and scratch files
+*.tmp
+*.bak
+tmp/
+temp/
+
+# Office temp files
+~$*.xlsx
+~$*.xls
+~$*.docx
+~$*.doc
+~$*.pptx
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Project data
+/data/raw/
+/data/interim/
+/data/processed/
+
+# Coursework document kept locally
+/Лалаян НИР.docx
+# Local/generated report outputs
+/reports/local/
+
+# Generated report outputs
+/reports/figures/*
+!/reports/figures/01_retreat_distributions_composite.png
+!/reports/figures/01_site_intensity_summary.png
+!/reports/figures/02_profile_correlation_overview.png
+!/reports/figures/03_model_comparison_mae.png
+!/reports/figures/04_autoencoder_reconstruction_error.png
+!/reports/figures/05_autoencoder_filtering_model_mae.png
+!/reports/figures/06_global_siteaware_mlp_mae.png
+!/reports/figures/06_site_specific_mlp_mae.png
+!/reports/figures/07_selected_profile_reconstructed_neural_forecast.png
+!/reports/figures/baseline_feature_importance.png
+!/reports/figures/baseline_residuals.png
+
+/reports/tables/*
+!/reports/tables/05_neural_quality_filtering_metrics.csv
+!/reports/tables/06_global_siteaware_mlp_metrics.csv
+!/reports/tables/06_site_specific_mlp_metrics.csv
+!/reports/tables/autoencoder_anomaly_summary.md
+!/reports/tables/baseline_group_validation_metrics.csv
+!/reports/tables/baseline_group_validation_metrics.md
+!/reports/tables/baseline_modeling_metrics.csv
+!/reports/tables/baseline_modeling_metrics.md
+
+# Local delivery exports
+/data/delivery/
